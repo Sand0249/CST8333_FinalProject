@@ -1,6 +1,8 @@
 # CST8333_FinalProject
 
 It is a project developed using C# language that demonstrates following:
+
+- Music player which plays both video and audio music tracks
 -	Connect with database containing records from provided dataset
 -	Create new records into database, update and delete records, displays all records in datagridview.
 -	Counts total number of records that database contains.
@@ -10,17 +12,21 @@ It is a project developed using C# language that demonstrates following:
 
 ## Images
 
-#### 1. Main Page
+### 1. Music Player
+![](Images/MusicPlayer.PNG)
+
+
+#### 2. Main Page
 ![](Images/MainPage.PNG)
 
 
-#### 2. CRUD
+#### 3. CRUD
 ![](Images/CRUD.PNG)
 
 
-#### 3. Sort Records
+#### 4. Sort Records
 ![](Images/SortRecords.PNG)
 
 
-#### 4. Marks Calculator
+#### 5. Marks Calculator
 ![](Images/Calculator.PNG)
