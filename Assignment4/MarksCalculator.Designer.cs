@@ -42,6 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(202, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(289, 41);
@@ -52,6 +53,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(80, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(234, 22);
@@ -62,6 +64,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(80, 181);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(284, 22);
@@ -72,6 +75,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
             this.label4.Location = new System.Drawing.Point(80, 237);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(156, 22);
@@ -80,6 +84,7 @@
             // 
             // txtEnglish
             // 
+            this.txtEnglish.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtEnglish.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEnglish.Location = new System.Drawing.Point(426, 127);
             this.txtEnglish.Name = "txtEnglish";
@@ -88,6 +93,7 @@
             // 
             // txtMath
             // 
+            this.txtMath.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtMath.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMath.Location = new System.Drawing.Point(426, 181);
             this.txtMath.Name = "txtMath";
@@ -96,6 +102,7 @@
             // 
             // txtTotal
             // 
+            this.txtTotal.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtTotal.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotal.Location = new System.Drawing.Point(426, 237);
             this.txtTotal.Name = "txtTotal";
@@ -104,19 +111,22 @@
             // 
             // btnTotalMarks
             // 
-            this.btnTotalMarks.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTotalMarks.BackColor = System.Drawing.Color.Blue;
+            this.btnTotalMarks.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTotalMarks.ForeColor = System.Drawing.Color.Red;
             this.btnTotalMarks.Location = new System.Drawing.Point(200, 302);
             this.btnTotalMarks.Name = "btnTotalMarks";
             this.btnTotalMarks.Size = new System.Drawing.Size(343, 46);
             this.btnTotalMarks.TabIndex = 3;
             this.btnTotalMarks.Text = "Click here to get average marks";
-            this.btnTotalMarks.UseVisualStyleBackColor = true;
+            this.btnTotalMarks.UseVisualStyleBackColor = false;
             this.btnTotalMarks.Click += new System.EventHandler(this.btnTotalMarks_Click);
             // 
             // MarksCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(734, 397);
             this.Controls.Add(this.btnTotalMarks);
             this.Controls.Add(this.txtTotal);

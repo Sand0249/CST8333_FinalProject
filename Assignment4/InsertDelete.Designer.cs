@@ -65,6 +65,7 @@ namespace Assignment4
             // 
             // dataGridView
             // 
+            this.dataGridView.BackgroundColor = System.Drawing.SystemColors.MenuHighlight;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Location = new System.Drawing.Point(12, 12);
             this.dataGridView.Name = "dataGridView";
@@ -74,16 +75,20 @@ namespace Assignment4
             // 
             // btnLoad
             // 
+            this.btnLoad.BackColor = System.Drawing.Color.Blue;
+            this.btnLoad.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoad.ForeColor = System.Drawing.Color.Red;
             this.btnLoad.Location = new System.Drawing.Point(112, 441);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(202, 57);
             this.btnLoad.TabIndex = 2;
             this.btnLoad.Text = "Load or update data";
-            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.UseVisualStyleBackColor = false;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
             // txtRowId
             // 
+            this.txtRowId.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtRowId.Location = new System.Drawing.Point(677, 61);
             this.txtRowId.Name = "txtRowId";
             this.txtRowId.Size = new System.Drawing.Size(161, 20);
@@ -93,7 +98,7 @@ namespace Assignment4
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(578, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 22);
@@ -156,6 +161,7 @@ namespace Assignment4
             // 
             // txtGeo
             // 
+            this.txtGeo.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtGeo.Location = new System.Drawing.Point(678, 124);
             this.txtGeo.Name = "txtGeo";
             this.txtGeo.Size = new System.Drawing.Size(161, 20);
@@ -163,6 +169,7 @@ namespace Assignment4
             // 
             // txtCommod
             // 
+            this.txtCommod.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtCommod.Location = new System.Drawing.Point(678, 154);
             this.txtCommod.Name = "txtCommod";
             this.txtCommod.Size = new System.Drawing.Size(161, 20);
@@ -170,6 +177,7 @@ namespace Assignment4
             // 
             // txtVector
             // 
+            this.txtVector.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtVector.Location = new System.Drawing.Point(677, 187);
             this.txtVector.Name = "txtVector";
             this.txtVector.Size = new System.Drawing.Size(161, 20);
@@ -177,6 +185,7 @@ namespace Assignment4
             // 
             // txtCoordinate
             // 
+            this.txtCoordinate.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtCoordinate.Location = new System.Drawing.Point(677, 219);
             this.txtCoordinate.Name = "txtCoordinate";
             this.txtCoordinate.Size = new System.Drawing.Size(161, 20);
@@ -184,19 +193,22 @@ namespace Assignment4
             // 
             // btnSave
             // 
+            this.btnSave.BackColor = System.Drawing.Color.Blue;
+            this.btnSave.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.Red;
             this.btnSave.Location = new System.Drawing.Point(572, 290);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(160, 44);
             this.btnSave.TabIndex = 6;
             this.btnSave.Text = "Save to database";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Blue;
+            this.label8.ForeColor = System.Drawing.Color.Red;
             this.label8.Location = new System.Drawing.Point(578, 367);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(151, 22);
@@ -205,6 +217,7 @@ namespace Assignment4
             // 
             // txtValue
             // 
+            this.txtValue.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtValue.Location = new System.Drawing.Point(677, 250);
             this.txtValue.Name = "txtValue";
             this.txtValue.Size = new System.Drawing.Size(160, 20);
@@ -239,6 +252,7 @@ namespace Assignment4
             // 
             // txtIdDelete
             // 
+            this.txtIdDelete.BackColor = System.Drawing.SystemColors.HotTrack;
             this.txtIdDelete.Location = new System.Drawing.Point(662, 414);
             this.txtIdDelete.Name = "txtIdDelete";
             this.txtIdDelete.Size = new System.Drawing.Size(160, 20);
@@ -246,16 +260,20 @@ namespace Assignment4
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.Blue;
+            this.btnDelete.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.Red;
             this.btnDelete.Location = new System.Drawing.Point(572, 462);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(158, 36);
             this.btnDelete.TabIndex = 8;
             this.btnDelete.Text = "Delete from Database";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // datetxt
             // 
+            this.datetxt.BackColor = System.Drawing.SystemColors.HotTrack;
             this.datetxt.Location = new System.Drawing.Point(677, 93);
             this.datetxt.Name = "datetxt";
             this.datetxt.Size = new System.Drawing.Size(164, 20);
@@ -265,6 +283,7 @@ namespace Assignment4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(872, 533);
             this.Controls.Add(this.datetxt);
             this.Controls.Add(this.btnDelete);

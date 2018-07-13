@@ -91,6 +91,12 @@ namespace Assignment4
             readFile();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MusicPlayer open = new MusicPlayer();
+            open.Show();
+        }
+
         /// <summary>
         /// This method is used to display the specified dataset records into console Using IO method
         /// </summary>
